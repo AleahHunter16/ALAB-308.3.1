@@ -29,3 +29,10 @@ while(true){
         break;
     } number++;
 }
+
+//part 3
+const rows = csvData.split('\n');
+const columns = rows[0].split(',').length;
+const dataArray = rows.map(row => row.split(','));
+const cachedData = dataArray;
+console.log(cachedData);
