@@ -14,4 +14,13 @@ function isPrime(Number){
     if(number<=1)return false;
     if(number<=3)return true;
     if( number%2===0; number%3===0)return false;
+
+}
+let n=4;
+let number=n;
+while(true){
+    if(APrime(number)){
+        console.log(number);
+        break;
+    } number++;
 }
