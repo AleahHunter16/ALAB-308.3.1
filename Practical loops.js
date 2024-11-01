@@ -11,13 +11,13 @@ for(let i=1;i<100;i++){
 
 //part two
 function isPrime(Number){
-    if(number<=1)return false;
-    if(number<=3)return true;
-    if( number%2===0; number%3===0)return false;
+    if(num<=1)return false;
+    if(num<=3)return true;
+    if( num%2===0;) num%3===0)return false;
 
 }
 let n=4;
-let number=n;
+let num=n;
 while(true){
     if(APrime(number)){
         console.log(number);
