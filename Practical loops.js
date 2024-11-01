@@ -8,3 +8,9 @@ const fizzbuzz=(n)=>{
 for(let i=1;i<100;i++){
     console.log(fizzbuzz(i));
 }
+
+//part two
+function isPrime(Number){
+    if(number<=1)return false;
+    if(number)
+}
